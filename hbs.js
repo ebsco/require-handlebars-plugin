@@ -446,9 +446,9 @@ define([
                     });
                   }
 
-                  if ( config.removeCombined ) {
-                    fs.unlinkSync(path);
-                  }
+                  // if ( config.removeCombined ) {
+                  //   fs.unlinkSync(path);
+                  // }
               });
             }
 
